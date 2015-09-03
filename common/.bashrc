@@ -28,7 +28,7 @@ git_branch() {
 }
 
 prompt() {
-  PS1="[ \w$(git_branch)${COLOREND} ] λ "
+  PS1="[ \w$(git_branch)${COLOREND} ] ${GREEN}λ${COLOREND} "
 }
 
 PROMPT_COMMAND=prompt
