@@ -11,6 +11,8 @@
   st = status -sb
   br = branch
   ci = commit
-  l = log --name-status --oneline
-  lg = log --name-status --oneline
+  d = diff
+  ds = diff --staged
+  lg = log --graph --oneline --decorate
+  lf = log --name-status --oneline
   a = add
