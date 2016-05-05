@@ -6,10 +6,10 @@ test -f ~/.gitconfig && rm ~/.gitconfig
 test -f ~/.vimrc && rm ~/.vimrc
 
 echo "Copying dotfiles..."
-ln -s ~/.dotfiles/common/.bash_profile ~/.bash_profile
-ln -s ~/.dotfiles/common/.bashrc ~/.bashrc
-ln -s ~/.dotfiles/common/.gitconfig ~/.gitconfig
-ln -s ~/.dotfiles/common/.vimrc ~/.vimrc
+ln -sf ~/.dotfiles/common/bash/.bash_profile ~/.bash_profile
+ln -sf ~/.dotfiles/common/bash/.bashrc ~/.bashrc
+ln -sf ~/.dotfiles/common/git/.gitconfig ~/.gitconfig
+ln -sf ~/.dotfiles/common/vim/.vimrc ~/.vimrc
 
 echo "Creating .bash_aliases and .custom.bashrc (if not exists)..."
 test -f ~/.bash_aliases || touch ~/.bash_aliases
