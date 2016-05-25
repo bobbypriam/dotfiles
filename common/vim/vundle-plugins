@@ -1,6 +1,7 @@
 " Vundle plugins
 
 Bundle 'scrooloose/nerdtree'
+Plugin 'scrooloose/syntastic'
 Bundle 'kien/ctrlp.vim'
 Bundle 'terryma/vim-multiple-cursors'
 Bundle 'Raimondi/delimitMate'
@@ -8,4 +9,6 @@ Bundle 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'airblade/vim-gitgutter'
+" Plugin 'valloric/youcompleteme'
+Plugin 'flazz/vim-colorschemes'
 
