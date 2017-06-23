@@ -1,0 +1,10 @@
+" Set fonts
+set guifont=Hasklig:h13
+set linespace=2
+
+" Disable scrollbars
+set guioptions=
+
+" Fixed window siz
+set lines=32
+set columns=106
