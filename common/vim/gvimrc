@@ -1,6 +1,9 @@
 " Set fonts
-set guifont=Hasklig:h13
+set macligatures
+" set guifont=Fira\ Code:h13
+set guifont=Hasklig:h12
 set linespace=2
+set cursorline
 
 " Disable scrollbars
 set guioptions=
